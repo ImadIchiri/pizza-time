@@ -2,7 +2,8 @@
 
 ## About The Design
 
-You Can Find It By Clicking <a href='https://www.figma.com/file/s9JsEwUyGGIglpSuMcVNVb/Landing-Page-(Food-and-Beverage)-(Community)?node-id=0%3A1' target='_blank'>This Link</a>
+You Can Find It By Following 
+<a href='https://www.figma.com/file/s9JsEwUyGGIglpSuMcVNVb/Landing-Page-(Food-and-Beverage)-(Community)?node-id=0%3A1' target='_blank'>This Link</a>
 
 ### For Any Question
 
