@@ -14,6 +14,6 @@ LinkedIn: <a href='https://www.linkedin.com/in/imad-ichiri-577a91203' target='_b
 
 <img src='images/screen-1.gif'>
 
-### 2snd ScreenShoot
+### 2nd ScreenShoot
 
 <img src='images/screen-2.gif'>
