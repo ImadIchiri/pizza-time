@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Pizza Time |Figma</title>
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Pizza Time Logo" />
+        <h1 class="logo-title">Pizza Time</h1>
+      </div>
+      <i class="fa-solid fa-bars open-menu" id="open-menu"></i>
+      <i class="fa-solid fa-xmark close-menu" id="close-menu"></i>
+      <nav id="nav-menu">
+        <ul class="main-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Promo</a></li>
+        </ul>
+        <ul class="secondary-nav">
+          <li><i class="fa-solid fa-magnifying-glass search"></i></li>
+          <li><i class="fa-solid fa-cart-shopping shopping"></i></li>
+          <li><button type="button" class="main-btn">Sign In</button></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Home Section -->
+    <section class="home">
+      <div class="text-content">
+        <h1 class="home-title">Friday pizza!</h1>
+        <p class="home-description">Time to enjoy our delicious pizza.</p>
+        <button type="button" class="main-btn">Oredr Now</button>
+      </div>
+      <div class="image">
+        <img
+          src="images/home-margherita-pizza.png"
+          alt="Margherita Pizza Image"
+        />
+        <div class="shadow"></div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Start Menu Section -->
+    <section class="menu">
+      <h2 class="section-title">Recommended menu</h2>
+      <div class="menu-list">
+        <!-- Card Menu 1 -->
+        <div class="menu-card">
+          <div class="card-image">
+            <img src="images/pizza-1.png" alt="Pizza Number 1 In The Menu" />
+          </div>
+          <div class="card-text">
+            <h3>Cheese Lovers</h3>
+            <p>
+              Combination of Alfredo sauce and two cheeses – Romano, and
+              Parmesan.
+            </p>
+          </div>
+          <span class="card-price">$20.00</span>
+          <div>
+            <select id="select">
+              <option value="val-1">Regular</option>
+              <option value="val-2">Regular-2</option>
+              <option value="val-3">Regular-3</option>
+              <option value="val-4">Regular-4</option>
+            </select>
+            <button type="button" class="main-btn">Add To Cart</button>
+          </div>
+        </div>
+        <!-- Card Menu 2 -->
+        <div class="menu-card">
+          <div class="card-image">
+            <img src="images/pizza-2.png" alt="Pizza Number 1 In The Menu" />
+          </div>
+          <div class="card-text">
+            <h3>Pepperoni Pizza</h3>
+            <p>Pizza with homemade spicy beef sausage</p>
+          </div>
+          <span class="card-price">$25.00</span>
+          <div>
+            <select id="select">
+              <option value="val-1">Regular</option>
+              <option value="val-2">Regular-2</option>
+              <option value="val-3">Regular-3</option>
+              <option value="val-4">Regular-4</option>
+            </select>
+            <button type="button" class="main-btn">Add To Cart</button>
+          </div>
+        </div>
+        <!-- Card Menu 3 -->
+        <div class="menu-card">
+          <div class="card-image">
+            <img src="images/pizza-3.png" alt="Pizza Number 1 In The Menu" />
+          </div>
+          <div class="card-text">
+            <h3>Margherita Pizza</h3>
+            <p>
+              Made with San Marzano tomatoes, mozzarella cheese, and fresh
+              basil.
+            </p>
+          </div>
+          <span class="card-price">$35.00</span>
+          <div>
+            <select id="select">
+              <option value="val-1">Regular</option>
+              <option value="val-2">Regular-2</option>
+              <option value="val-3">Regular-3</option>
+              <option value="val-4">Regular-4</option>
+            </select>
+            <button type="button" class="main-btn">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Menu Section -->
+    <script src="main.js"></script>
+  </body>
+</html>
